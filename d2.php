@@ -8,7 +8,7 @@
 <h2>Informe um número:</h2>
 
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-    Número: <input type="text" name="numero"><br><br>
+    Número: <input type="number" name="numero"><br><br>
     <input type="submit" name="submit" value="Verificar">
 </form>
 
